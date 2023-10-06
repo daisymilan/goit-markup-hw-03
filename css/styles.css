@@ -4,6 +4,7 @@
     --CLOUD: #F4F4FD;
     --WHITE: #FFFFFF;
     --SLATE: #434455;
+    --CORNFLOWER: #E7E9FC;
 
 }
 
@@ -17,6 +18,17 @@ body {
     cursor: pointer;
 }
 
+/* h3 */
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+
     /* LOGO */
 .logo {
     text-decoration: none;
@@ -25,6 +37,8 @@ body {
     font-family: Raleway;
     line-height: 1.16667;
     font-weight: 800;
+    /* h3 */
+   
 }
 
 .logo span{
@@ -47,6 +61,10 @@ ul {
     text-align: left;
     padding: 0;
     margin-left: 0;
+    list-style: none;
+    /* h3 */
+    display: flex;
+
 }
 
 .menu-links li a {
@@ -57,6 +75,7 @@ ul {
     line-height: 1.5px;
     letter-spacing: 0.32px;
     color: var(--NAVY-BLUE);
+    
 }
 .menu-links li a:hover, .menu-links li a:focus {
     text-shadow: var(--SLATE);
@@ -149,6 +168,10 @@ button:hover {
 }
 
     /* SECTION CLASS TEAM */
+.team {
+    background-color: var(--CLOUD);
+}
+
 .team h2 {
     text-align: center;
     font-size: 36px;
@@ -158,6 +181,15 @@ button:hover {
     font-weight: 700;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+
+.team li{
+    padding-bottom: 0px;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 h3 {
