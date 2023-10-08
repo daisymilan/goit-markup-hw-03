@@ -38,16 +38,12 @@ header {
     justify-content: end;
 }
 
-/* h3 */
 .logo-nav {
     display: flex;
     justify-content: start;
     align-items: center;
    width: 50%;
-
 }
-
-
 
     /* LOGO */
 .logo {
@@ -79,7 +75,6 @@ header {
 nav ul {
     gap: 40px;
 }
-
 
 li a {
     text-decoration: none;
@@ -165,7 +160,7 @@ h1 {
 
 }
 
-button {
+.section-1 button {
     border-radius: 4px;
     background: var(--IRIS);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -183,7 +178,7 @@ button {
 
 }
 
-button:hover {
+.section-1 button:hover {
     text-shadow: var(--SLATE);
     color: var(--NAVY-BLUE);
 }
@@ -341,24 +336,60 @@ footer p{
 
 
 /* PORTFOLIO */
+.menu-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
 
-.menu-2 li a{
-    color: var(--WHITE, #FFF);
+.menu-2 button{
+    border-radius: 4px;
+    background: var(--CLOUD);
+    padding: 12px 24px;
+    border: 1px solid var(--CORNFLOWER);
+    color: var(--IRIS);
     text-align: center;
+    cursor: pointer;
+    /* Button Text */
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    border: 4px;
-    display: flex;
-    padding: 12px 24px;
-    align-items: flex-start;
-    border-radius: 4px;
-    background: var(--OCEAN, #404BBF);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    
 }
 
-.menu-2 li a text {
-   
+.menu-2 button:hover {
+    border-radius: 4px;
+    background: var(--CLOUD);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+ }
+
+ .row-1 .row-2 .row-3 {
+    list-style: none;
+
+ }
+
+ .project-cards h3{
+    text-align: left;
+ }
+
+ .project-card ul li {
+    display: flex;
+        width: 360px;
+        height: 420px;
+        padding-bottom: 0px;
+        padding-left: 156px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex-shrink: 0;
+        border: 1px solid var(--CORNFLOWER);
+        background: var(--WHITE);
+
+        flex-wrap: wrap ;
+ }
