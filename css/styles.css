@@ -237,10 +237,9 @@ ul .section-2 {
     text-transform: capitalize;
 }
 
-/* .section-2 li img {
-    height: 300px;
+.section-2 li img {
     width: 360px;
-} */
+}
 
     /* SECTION CLASS TEAM */
 
@@ -273,7 +272,6 @@ ul .section-2 {
 }
 
 .team li img {
-    height: 260px;
     width: 264px;
 
 }
@@ -388,7 +386,6 @@ ul.row {
 
 .cards img {
     width: 360px;
-    height: 300px;
     flex-shrink: 0;
 }
 
