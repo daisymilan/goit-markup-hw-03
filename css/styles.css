@@ -370,28 +370,50 @@ footer p{
  }
 
 .cards-section {
-    height: 2004px;
-    width: 1440px;  
+    height: 1692px;
+    width: 1440px;
+}
+
+ul.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 
 .cards {
-    display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
+   border: 1px solid var(--CORNFLOWER);
+   background: var(--WHITE);
 
-    display: flex;
-    padding: 0px 16px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
-    flex-wrap: ;
+}
+
+.cards img {
+    width: 360px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.cards h3 {
+    text-align: left;
+    color: var(--NAVY-BLUE);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    padding-top:32px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+
+.cards p {
+    color: var(--SLATE);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
